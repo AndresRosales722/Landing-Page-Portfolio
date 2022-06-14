@@ -143,23 +143,35 @@ section.service .container-card{
 
 section.service .container-card .card{
     margin-bottom: 1.5rem;
+    background: #14181e;
+    border-radius: 5px;
+    border: 1px solid #22272b;
 }
 
 section.service .container-card .card i{
     font-size: 2rem;
     background-color: #00c787;
-    padding: 10px;
-    color:#010104;
+    padding: 5px 0px;
+    color: #010104;
     width: 100%;
+    border-radius: 5px 5px 0px 0px;
 }
 
+section.service .container-card .card h4{
+    padding: 10px 0px;
+}
+
+section.service .container-card .card p{
+padding: 5px 5px 15px;
+
+}
 
 
 
 
 
 @media(min-width:576px){
-
+    
     main{
         max-width: 576px;
     }    
@@ -167,27 +179,27 @@ section.service .container-card .card i{
 }
 
 @media(min-width:768px){
-
+    
     main{
         max-width: 700px;
     }    
-
+    
     section.first {
         display: flex;
         justify-content: space-between;
         margin: 1rem 0rem 2rem;
     }
-
+    
     section.first .company {
         margin: 0;
         width: 45%;
     }
-
+    
     section.first figure {
         margin-top: 0;
         width: 50%;
     }
-
+    
     section.info {
         margin: 3rem 0rem;
     }
@@ -195,11 +207,11 @@ section.service .container-card .card i{
 }
 
 @media(min-width:992px){
-
+    
     main{
         max-width: 900px;
     }    
-
-
+    
+    
     
 }
