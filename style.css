@@ -7,6 +7,7 @@
 
 body{
     background: #010104; 
+    color: #b1b1b9;
 }
 
 body hr{
@@ -123,6 +124,36 @@ section.info{
     letter-spacing: 0.5px;
     border-radius: 2px;
 }
+
+section.service{
+    text-align: center;
+}
+
+section.service .skill{
+    margin-bottom: 2rem;
+}
+
+section.service .skill h2{
+    margin: 1rem 1rem;
+}
+
+section.service .container-card{
+    margin-bottom: 2rem;
+}
+
+section.service .container-card .card{
+    margin-bottom: 1.5rem;
+}
+
+section.service .container-card .card i{
+    font-size: 2rem;
+    background-color: #00c787;
+    padding: 10px;
+    color:#010104;
+    width: 100%;
+}
+
+
 
 
 
